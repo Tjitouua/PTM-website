@@ -1,0 +1,51 @@
+body {
+    background: url('rigno1.jpg') no-repeat;
+    background-size: cover;
+    animation-name:rhino;
+    animation-duration:50s;  
+    animation-iteration-count:infinite; 
+    /* animation-timing-function: cubic-bezier(.83,.88,.97,.05);  */
+      
+    
+}
+@keyframes rhino {
+    10% {background: url('rigno1.jpg') no-repeat; background-size:cover; justify-content:center;}
+    30% {background: url('rhino3.jpg') no-repeat; background-size:cover; justify-content:center;}
+    50% {background: url('rhino2.jpg') no-repeat; background-size:cover; }
+    65% {background: url('rhino5.jpg') no-repeat; background-size:cover;}
+    75% {background: url('rhino6.jpg') no-repeat; background-size:cover;}
+    85% {background: url('rhino7.jpg') no-repeat; background-size:cover;}
+    90% {background: url('rhino8.jpg') no-repeat; background-size:cover;}
+    95% {background: url('rhino4.jpg') no-repeat; background-size:cover}
+}
+
+
+#safe {
+    margin-top: 300px;
+    margin-left: 700px;
+}
+#header {
+    background-color:black; 
+    /* border-radius:10px; */
+    height:80px;
+    color:white;
+    padding-top:2px;
+}
+#header nav {
+    float:right;
+    padding-right:50px; 
+     margin-top:-60px; 
+
+}
+#header h1 {
+    margin-left:500px;
+}
+#navig a {
+    padding-right:60px;
+    color:white;
+    text-decoration:none;
+    border-color:white;
+}
+#navig a:hover {
+    color:red;
+}
